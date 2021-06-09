@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="work1">
+        <h3>Задание 1. Замена одинарных ковычек</h3>
+        <p id="text1">
+            Lore'm ipsum 'dolor' sit ame't consectetur adipisicing elit. Ex 'voluptatum' perspicia'tis molesti'as eveniet 'earum' ut fugiat 'hic'? 'Aliquam' impedit 'ex' libero nemo, eaque atque 'doloribus' illum perferendis a autem eo's?
+        </p>
+        <p id="output"></p><br>
+        <button class="repl1" >Заменить</button>
+    </div>
+    <div class="work2">
+        <h3>Задание 2. Замена одинарных ковычек (в конструкциях типа aren't одинарная кавычка не заменяется на двойную)</h3>
+        <p id="text2">
+            Lore'm ipsum 'dolor' sit ame't consectetur adipisicing elit. Ex 'voluptatum' perspicia'tis molesti'as eveniet 'earum' ut fugiat 'hic'? 'Aliquam' impedit 'ex' libero nemo, eaque atque 'doloribus' illum perferendis a autem eo's?
+        </p>
+        <p id="output2"></p><br>
+        <button class="repl2">Заменить</button>
+    </div>
+
+    <div class="work3">
+        <h3>Задание 3. Форма обратной связи с полями</h3>
+        <form action="">
+            <label id="name">
+            <input type="text" name="name" placeholder="Your name"><br>
+            <small class="error">Your name can only contain letters</small>
+            </label><br><br>
+            <label id="phone">
+                <input type="tel" name="phone" placeholder="+7(000)000-00-00"><br>
+                <small class="error">Enter your phone in the format +7(000)000-00-00</small>
+            </label><br><br>
+            <label id="email">
+                <input type="email" name="email" placeholder="E-mail"><br>
+                <small class="error">Enter your email in the format example@site.com</small>
+            </label><br><br>
+            <label id="message">
+                <textarea placeholder="Your message here" name="message"></textarea><br>
+                <small class="error">We will be glad even one letter</small>
+            </label><br><br>
+            <button class="button">Отправить</button>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
