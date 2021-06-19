@@ -1,5 +1,4 @@
-
-Vue.component('filter-element', {
+Vue.component('filter-el', {
     data(){
         return {
             userSearch: ''
@@ -14,6 +13,3 @@ Vue.component('filter-element', {
             </form>
     `
 });
-
-
- 
